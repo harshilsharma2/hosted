@@ -1824,7 +1824,7 @@ var __extends = this && this.__extends || function(e, t) {
                         if (e.getCurrentPopup().isPopupOpen()) {
                             n["default"].logMessage("leaving current url: " + this._url);
                             this._url = s;
-                            e.getCurrentPopup().getPopupWindow().location.href = s;
+                            e.getCurrentPopup().getPopupWindow().location = s;
                         } else {
                             this._url = s;
                             this._popup = window.open(s, "_blank", e.createPopupFeatures());
