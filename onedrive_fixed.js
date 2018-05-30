@@ -1825,7 +1825,7 @@ var __extends = this && this.__extends || function(e, t) {
                             n["default"].logMessage("leaving current url: " + this._url);
                             this._url = s;
                             var location = e.getCurrentPopup().getPopupWindow().location;
-                            if (typeof location == string) {
+                            if (typeof location == "string") {
                                 e.getCurrentPopup().getPopupWindow().location = s;
                             } else {
                                 e.getCurrentPopup().getPopupWindow().location.href = s;
