@@ -1828,7 +1828,7 @@ var __extends = this && this.__extends || function(e, t) {
                             // if (typeof location == "string") {
                                 // e.getCurrentPopup().getPopupWindow().location = s;
                             // } else {
-                                e.getCurrentPopup().getPopupWindow().location.href = s;
+                                e.getCurrentPopup().getPopupWindow().location = s;
                             // }
                         } else {
                             this._url = s;
